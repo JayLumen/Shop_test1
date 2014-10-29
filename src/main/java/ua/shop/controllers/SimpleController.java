@@ -19,4 +19,14 @@ public class SimpleController {
         goods.add(good2);
         return new ModelAndView("goods", "list_of_goods", goods);
     }
+
+    @RequestMapping("/goods2.do")
+    public ModelAndView getGood2() {
+        List<Good> goods = new ArrayList<Good>();
+        Good good1 = new Good("Phone", 900);
+        Good good2 = new Good("TV", 1800);
+        goods.add(good1);
+        goods.add(good2);
+        return new ModelAndView("goods", "list_of_goods", goods);
+    }
 }

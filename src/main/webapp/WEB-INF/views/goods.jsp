@@ -9,6 +9,16 @@
         prize: [<c:out value="${good.prize}"/>]
         <br/>
     </c:forEach>
+    List of brand <br/>
+    <c:forEach items="${list_of_brand}" var="brand">
+        name: [<c:out value="${brand.name}"/>
+        <br/>
+        price: [<c:out value="${brand.price}"/>
+        <br/>
+        quantity: [<c:out value="${brand.quantity}"/>
+        <br/>
+
+    </c:forEach>
 </head>
 <body>
 </body>

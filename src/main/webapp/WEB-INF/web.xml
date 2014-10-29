@@ -37,4 +37,7 @@
             org.springframework.web.util.Log4jConfigListener
         </listener-class>
     </listener>
+    <welcome-file-list>
+        <welcome-file>redirect.jsp</welcome-file>
+    </welcome-file-list>
 </web-app>
